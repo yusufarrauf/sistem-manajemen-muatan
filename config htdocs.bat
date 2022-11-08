@@ -1,0 +1,1 @@
+@powershell -Command "(gc C:\xampp\apache\conf\httpd.conf) -replace '"C:/xampp/htdocs"', '"C:/xampp/htdocs/public"' | Out-File -encoding ASCII C:\xampp\apache\conf\httpd.conf"
